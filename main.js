@@ -98,7 +98,7 @@ function flip(event){
             "respuesta": "(22) ¿Cuándo te levantas?"
         },
         {
-            "pregunta": "(23) Oversett: Guitaren til Paula / Paulas guitar",
+            "pregunta": "(23) Oversett: Gitaren til Paula / Paulas guitar",
             "respuesta": "(23) La guitarra de Paula"
         },
         {
@@ -190,7 +190,7 @@ function flip(event){
             "respuesta": "(45) Når jeg var 20 år gammel har jeg begynt å jobbe"
         },
         {
-            "pregunta": "(46) Traducir: La última semana fue muy tranquila (==tranquilísima)",
+            "pregunta": "(46) Traducir: La última semana ha sido muy tranquila (==tranquilísima)",
             "respuesta": "(46) Den forrige uka var veldig rolig"
         },
         {
