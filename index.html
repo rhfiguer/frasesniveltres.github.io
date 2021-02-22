@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Cartas para el Estudio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <h1 id="titulo-principal"> Cartas para el estudio </h1>
+    <h2 id="titulo-secundario">Frases nivel 3</h2>
+
+    <div id="cronometro"> <span></span> <span><img id="patan" src="./imagenes/patan-juepuya.gif" alt=""></span></div>
+    <div class="gamecontainer">
+        <div id="portada-uno" class="card" data-wait="true">
+            <div class="card-content card-face"><img  class="contImg" src="" alt=""></div>
+            <div id="mensaje-principal" class="card-logo card-face"><img id="0" data-number="0" data-tournable="true"   alt=""><p  id="parrafo">PREGUNTAS</p></div>
+        </div>
+        <div id="portada-dos" class="card" data-wait="true">
+            <div class="card-content card-face"><img  class="contImg" src="" alt=""></div>
+            <div id="fondo-respuesta" class="card-logo card-face"><img id="1" data-number="0" data-tournable="true"   alt=""><p  id="parrafo-dos">RESPUESTAS</p></div>
+        </div>
+    </div> 
+    
+
+    <div id="button-cards"   >
+        <button class="button" onclick="flip(event)"><span>Ver pregunta</span></button>
+        <button id="button-respuesta" class="button"><span>Ver respuesta</span></button>
+        <button id="button-siguiente" class="button"><span>Siguiente</span></button>
+
+    </div>
+    <script src="typed.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+    <script type="module" src="./cronometro.js"></script>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+</body>
+</html>

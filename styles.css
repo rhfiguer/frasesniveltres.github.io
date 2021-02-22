@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#patan {
+  width: 70px;
+  justify-content: center;
+  align-content: center;
+    
+}
+
+#titulo-principal{
+    display: flexbox;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 40px;
+    margin: 20px;
+    color: white;
+    font-family: 'Reggae One', cursive;
+}
+
+#titulo-secundario{
+  display: flexbox;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  font-size: 25px;
+  margin: 20px;
+  color: white;
+  font-family: 'Reggae One', cursive;
+}
+
+/* NECESITO CENTRAR EL BOTÓN*/
+#button-cards {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+  }
+
+#cronometro {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.rotated {
+    transform: rotate(45deg); /* Equal to rotateZ(45deg) */
+    background-color: pink;
+  }
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#8B0000, white);
+    height: 100%;
+}
+
+#mensaje-principal {
+    position: relative;
+    background-color: white;
+}
+
+#parrafo{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  line-height : 25px;
+  position: absolute;
+  font-family: 'Newsreader', serif;
+  font-size: 18px;    
+
+}
+
+#parrafo-dos{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  line-height : 25px;
+  position: absolute;
+  font-family: 'Newsreader', serif;
+  font-size: 18px; 
+  color: #FFFFFF;
+  
+}
+
+.gamecontainer {
+display: grid;
+grid-template-columns: repeat(4, auto);
+row-gap: 5px;
+column-gap: 5px;
+justify-content: center;
+margin: 10px;
+padding: 0;
+
+}
+
+.card{
+    background-color: teal;
+    border-style: solid;
+    width: 180px;
+    height: 260px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+    transform-style: preserve-3d;
+    border-radius: 25px;
+    border-color: black;
+   
+}
+
+#fondo-respuesta{
+  background-color: #8B0000;
+}
+.card-logo img {
+    width: 100%;
+    height: 100%;  
+    position: absolute;
+    backface-visibility: hidden;
+}
+.card-content img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+
+      
+}
+
+
+
+
+.card-face{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    backface-visibility: hidden;
+
+
+  
+}
+
+/*
+.card:hover .card-logo{
+    transform: perspective(500px)  rotateY(180deg);
+    transition: 1500ms ease-in;
+}
+*/
+
+.button {
+    border-radius: 4px;
+    background-color: #8B0000;
+    border: white;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Reggae One', cursive;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
