@@ -90,8 +90,8 @@ function flip(event){
             "respuesta":"(20) (Nosotros-as) Vamos a estudiar en mi casa"
         },
         {
-            "pregunta": "(21) Oversett: Så fin er din klokke!",
-            "respuesta": "¡Qué bonito es tu reloj!"
+            "pregunta": "(21) Oversett: Så fin er den klokken!",
+            "respuesta": "¡Qué bonito es el reloj!"
         },
         {
             "pregunta": "(22) Oversett: Når våkner du?",
@@ -122,8 +122,8 @@ function flip(event){
             "respuesta": "(28) Det finnes ikke tigere i Norge"
         },
         {
-            "pregunta": "(29) Traducir: En mi clase no hay muchos alumnos",
-            "respuesta": "(29) I klassen min er det ikke mange elever "
+            "pregunta": "(29) Traducir: I klassen er det ikke mange elever",
+            "respuesta": "(29) En la clase no hay muchos alumnos"
         },
         {
             "pregunta": "(30) Traducir: Me he levantado temprano el día de hoy",
@@ -134,8 +134,8 @@ function flip(event){
             "respuesta": "(31) Jeg har ikke vasket meg i dag"
         },
         {
-            "pregunta": "(32) Traducir: Este regalo es para mí",
-            "respuesta": "(32) Denne gaven er til meg"
+            "pregunta": "(32) Traducir: El regalo es para Harald",
+            "respuesta": "(32) Den gaven er til Harald"
         },
         {
             "pregunta": "(33) Traducir: Me acuerdo de ti",
@@ -151,19 +151,19 @@ function flip(event){
         },
         {
             "pregunta": " (36) Traducir: ¡Los zapatos son súper caros (==carísimos)",
-            "respuesta": "(36) De skoene er kjempedyre!"
+            "respuesta": "(36) De skoene er kjempedyre/veldig dyre!"
         },
         {
             "pregunta": "(37) Traducir: La comida está buenísima (== muy buena)",
             "respuesta": "(37) Den maten er kjempegod"
         },
         {
-            "pregunta": "(38) Traducir: Mi casa es la casa bonita",
-            "respuesta": "Mitt hus er det vakkre huset"
+            "pregunta": "(38) Traducir: La casa azul es muy bonita",
+            "respuesta": "Det blå huset er veldig fint"
         },
         {
-            "pregunta": "(39) Traducir: Mi cuaderno está en la mesa",
-            "respuesta": "(39) Min skrevebok er på boret"
+            "pregunta": "(39) Traducir: El cuaderno está en la mesa",
+            "respuesta": "(39) Den skreveboken er på boret"
         },
         {
             "pregunta": "(40) Traducir: La casa blanca",
