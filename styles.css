@@ -95,7 +95,6 @@ body{
 
 .gamecontainer {
 display: grid;
-width: 150px;
 grid-template-columns: repeat(4, auto);
 row-gap: 5px;
 column-gap: 5px;
@@ -108,8 +107,8 @@ padding: 0;
 .card{
     background-color: teal;
     border-style: solid;
-    width: 150px;
-    height: 230px;
+    width: 180px;
+    height: 260px;
     margin: 0;
     padding: 0;
     overflow: hidden;
