@@ -155,7 +155,7 @@ function flip(event){
         },
         {
             "pregunta": "(37) Traducir: La comida está buenísima (== muy buena)",
-            "respuesta": "(37) Den maten er kjempegod"
+            "respuesta": "(37) Den maten er kjempegod/veldig god"
         },
         {
             "pregunta": "(38) Traducir: La casa azul es muy bonita",
